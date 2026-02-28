@@ -2,14 +2,14 @@
 
 {% block titulo %}
     {{ titulo }}
+    
 {% endblock titulo %}
     
 {% block contenido %}
     {% include 'menu.html' %}
-    
-
-    <h1>{{ encabezado }}</h1>
     {% include 'sidebar.html' %}
+    {% include 'boton-tema.html' %}
+    <h1>{{ encabezado }}</h1>
 {% endblock contenido %}
 
     
